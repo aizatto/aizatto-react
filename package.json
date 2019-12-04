@@ -1,0 +1,16 @@
+{
+  "name": "@aizatto/react",
+  "version": "0.0.1",
+  "main": "build/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "*",
+    "lodash.flatten": "*",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "@aizatto/lib": "*",
+    "@types/lodash.flatten": "*",
+    "react": "*"
+  }
+}
