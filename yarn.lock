@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@aizatto/lib@^0.0.6":
+"@aizatto/lib@*":
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/@aizatto/lib/-/lib-0.0.6.tgz#debce7a2c458adc2ba6482d5a436745b37db30ac"
   integrity sha512-ZSrkyj024TTjty/bIPOU41RFJjX3W0sRwFND1wl9dgw7oNMnnd4Nd3l8jx9JQ4IToOhIS4vzghObzdm6u81f9Q==

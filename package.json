@@ -4,13 +4,13 @@
   "main": "build/index.js",
   "license": "MIT",
   "devDependencies": {
+    "@types/lodash.flatten": "*",
     "@types/react": "*",
-    "lodash.flatten": "*",
     "typescript": "*"
   },
   "dependencies": {
     "@aizatto/lib": "*",
-    "@types/lodash.flatten": "*",
+    "lodash.flatten": "*",
     "react": "*"
   }
 }
