@@ -3,14 +3,23 @@
   "version": "0.0.2",
   "main": "build/index.js",
   "license": "MIT",
+  "scripts": {
+    "prepare": "yarn run tsc"
+  },
   "devDependencies": {
     "@types/lodash.flatten": "*",
     "@types/react": "*",
+    "husky": "*",
     "typescript": "*"
   },
   "dependencies": {
     "@aizatto/lib": "*",
     "lodash.flatten": "*",
     "react": "*"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn run tsc"
+    }
   }
 }

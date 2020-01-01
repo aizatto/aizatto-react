@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 interface Props extends Omit<React.HTMLProps<HTMLElement>, "title"> {
     eventKey: string;
     title: React.ReactNode;

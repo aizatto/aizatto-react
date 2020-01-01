@@ -34,18 +34,11 @@ var __rest = (this && this.__rest) || function (s, e) {
         }
     return t;
 };
-var __importStar = (this && this.__importStar) || function (mod) {
-    if (mod && mod.__esModule) return mod;
-    var result = {};
-    if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
-    result["default"] = mod;
-    return result;
-};
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __importStar(require("react"));
+var react_1 = __importDefault(require("react"));
 var lodash_flatten_1 = __importDefault(require("lodash.flatten"));
 var lib_1 = require("@aizatto/lib");
 var Tabs = /** @class */ (function (_super) {
@@ -112,12 +105,12 @@ var Tabs = /** @class */ (function (_super) {
                     aClassName += 'disabled';
                 }
             }
-            return (React.createElement("li", __assign({ role: "presentation", className: "nav-item " + className }, childProps),
-                React.createElement("a", { className: "nav-link " + aClassName, href: href }, title)));
+            return (react_1.default.createElement("li", __assign({ role: "presentation", className: "nav-item " + className }, childProps),
+                react_1.default.createElement("a", { className: "nav-link " + aClassName, href: href }, title)));
         });
         var className = "nav nav-tabs " + props.className;
-        return (React.createElement("div", null,
-            React.createElement("ul", __assign({}, props, { className: className }), children),
+        return (react_1.default.createElement("div", null,
+            react_1.default.createElement("ul", __assign({}, props, { className: className }), children),
             content));
     };
     Tabs.defaultProps = {
@@ -126,6 +119,6 @@ var Tabs = /** @class */ (function (_super) {
         className: '',
     };
     return Tabs;
-}(React.Component));
+}(react_1.default.Component));
 exports.Tabs = Tabs;
 //# sourceMappingURL=Tabs.js.map

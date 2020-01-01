@@ -1,1 +1,1 @@
-{"version":3,"file":"Tab.js","sourceRoot":"","sources":["../src/Tab.tsx"],"names":[],"mappings":";;;;;;;;;AAAA,2CAA+B;AAS/B,SAAgB,GAAG,CAAC,KAAY;IAC9B,OAAO,0CAAG,KAAK,CAAC,KAAK,CAAI,CAAC;AAC5B,CAAC;AAFD,kBAEC"}
+{"version":3,"file":"Tab.js","sourceRoot":"","sources":["../src/Tab.tsx"],"names":[],"mappings":";;;;;AAAA,gDAA0B;AAS1B,SAAgB,GAAG,CAAC,KAAY;IAC9B,OAAO,8DAAG,KAAK,CAAC,KAAK,CAAI,CAAC;AAC5B,CAAC;AAFD,kBAEC"}
