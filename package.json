@@ -3,6 +3,7 @@
   "version": "0.0.4",
   "main": "build/index.js",
   "license": "MIT",
+  "repository": "https://www.github.com/aizatto/react",
   "scripts": {
     "prepare": "yarn run tsc"
   },
